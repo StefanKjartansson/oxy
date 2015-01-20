@@ -86,6 +86,7 @@ import (
   "net/http"
   "github.com/mailgun/oxy/forward"
   "github.com/mailgun/oxy/roundrobin"
+  "github.com/mailgun/oxy/stream"
   )
 
 // Forwards incoming requests to whatever location URL points to, adds proper forwarding headers
